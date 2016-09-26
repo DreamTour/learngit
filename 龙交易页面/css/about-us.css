@@ -1,0 +1,42 @@
+.content_banner{
+    height: 571px;
+    background: url("../images/about-us/content-banner-bg.jpg") no-repeat;
+}
+.content_banner .banner_strong{
+    font-size: 24px;
+    color: #fff;
+    position: relative;
+    top: 242px;
+    left: 200px;
+}
+
+.content_about .about_title{
+    height: 40px;
+    border-bottom: 2px solid #cccccc;
+}
+.content_about .title_span{
+    display: block;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid #2d2d2d;
+}
+.content_about .about_list{
+    padding: 15px 0;
+}
+.content_about li{
+    padding-bottom: 20px;
+}
+.content_about strong{
+    color: #ff9900;
+    font-size: 16px;
+}
+.content_about p{
+    margin: 0;
+    line-height: 24px;
+    font-size: 14px;
+}

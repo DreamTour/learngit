@@ -1,0 +1,344 @@
+body,.container{
+    min-width: 1230px;/*左右15px padding 中间1200*/
+    font-family: "微软雅黑","宋体";
+    font-size: 12px;
+    color: #666;
+}
+ul,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+    font-family: "微软雅黑","宋体";
+    color: #666;
+}
+/*侧边栏分享*/
+.link_01{
+    display: none;
+}
+/*end 侧边栏分享*/
+/*header*/
+.header_top{
+    width: 100%;
+    height: 37px;
+    background: url("../images/header_bg.png") repeat-x;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header_top .shopCart{
+    position: relative;
+}
+.header_top .shopCart_icon{
+    display: inline-block;
+    background: url("../images/shopCart_icon.gif") no-repeat center;
+    width: 20px;
+    height: 34px;
+    margin-right: 4px;
+    vertical-align: -12px;
+}
+.header_top .shopCart_name{
+    color: #7c7c7c;
+    height: 37px;
+    line-height: 37px;
+}
+.header_top .shopCart_number{
+    color: #f40;
+}
+.header_top .shopCart_arrow{
+    display: inline-block;
+    width: 10px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    background: url("../images/shopCart_arrow.gif") no-repeat center;
+    margin-right: 5px;
+    transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+.header_top .shopCart:hover{
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #eeeeee;
+}
+.header_top .shopCart:hover .shopCart_arrow{
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+}
+.header_top .shopCart_select{
+    width: 290px;
+    height: 112px;
+    position: absolute;
+    top: 37px;
+    left: -1px;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #eeeeee;
+    border-top: none;
+    display: none;
+}
+.header_top .shopCart_select .select_text{
+    display: inline-block;
+    padding: 20px 0;
+}
+.header_top .shopCart_select .select_btn{
+    display: inline-block;
+    width: 135px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    background: #ff5a00;
+    border: 1px solid #f54100;
+    color: #fff;
+}
+.header_top .user_signIn{
+    display: inline-block;
+    padding: 0 20px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 6px 6px auto 0;
+    border: 1px solid #dadada;
+    color: #7c7c7c;
+}
+.header_top .user_signIn:hover{
+    border: 1px solid #2a96ff;
+    color: #2a96ff;
+    cursor: pointer;
+}
+.header_top .user_register{
+    display: inline-block;
+    padding: 0 20px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 6px 6px auto 0;
+    border: 1px solid #2a96ff;
+    background-color: #45a2ff;
+    color: #fff;
+}
+.header_top .user_register:hover{
+    background-color: #2594ff;
+    cursor: pointer;
+}
+
+.header_search{
+    margin-top: 37px;
+    height: 95px;
+}
+.header_search .logoImg{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.header_search .textMsg{
+    padding-top: 28px;
+    padding-left: 6px;
+}
+.header_search .textMsg span{
+    display: block;
+    font-size: 16px;
+    color: #2d2d2d;
+}
+.header_search .searchBox{
+    padding-top: 24px;
+    padding-left: 120px;
+    width: 546px;
+    height: 65px;
+}
+.header_search .searchBox_form{
+    width: 489px;
+    position: relative;
+}
+.header_search .form_text{
+    width: 455px;
+    height: 30px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    text-indent: 10px;
+    border-right: 0;
+}
+.header_search .form_submit{
+    width: 34px;
+    height: 30px;
+    border: none;
+    background: url("../images/search-icon.gif") no-repeat;
+}
+.header_search .searchBox_links{
+    padding-top: 5px;
+}
+.header_search .searchBox_links a{
+    padding-left: 5px;
+}
+
+.header_nav{
+    background: #333333;
+}
+.header_nav .navList{
+    padding-left: 220px;
+}
+.header_nav .navList li{
+    float: left;
+    width: 106px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+}
+.header_nav .navList li:hover{
+    background: #ff690b;
+}
+.header_nav .navList .hotIcon{
+    position: absolute;
+    top: -4px;
+    left: 35px;
+}
+.navList_li-active{
+    background: #ff690b;
+}
+/*end header*/
+
+/*footer*/
+.footer_service .service{
+    height: 146px;
+    border: 1px solid #e6e6e6;
+    padding: 20px 0 0 20px;
+}
+.footer_service li{
+    width: 230px;
+    float: left;
+    text-align: center;
+}
+.footer_service .service_strong{
+    display: block;
+}
+.footer_service span{
+    display: block;
+    line-height: 20px;
+}
+
+.footer_bottom{
+    color: #2d2d2d;
+    padding: 15px 0 10px 0;
+    text-align: center;
+}
+.footer_bottom p{
+    margin: 0;
+    line-height: 24px;
+}
+.footer_bottom a{
+    color: #2d2d2d;
+}
+.footer_bottom a:hover{
+    color: #666;
+}
+.footer_bottom .a-underline{
+    text-decoration: underline;
+}
+/*end footer*/
+
+/* 管理登录 */
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.manageSignInWrap{
+    width: 100%;
+    height: 100%;
+    background: rgba(66,66,66,0.4);
+    position: fixed;
+    bottom: 0;
+    display: none;
+    z-index: 999;
+}
+.manageSignIn{
+    width: 380px;
+    height: 207px;
+    box-shadow: 0 -4px 10px #a0a0a0,
+    4px 0 10px #a0a0a0,
+    -4px 0 10px #a0a0a0,
+    0 4px 10px #a0a0a0;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -103px;
+}
+.manageSignIn .manageSignIn_head{
+    background-color: #4188c6;
+    height: 27px;
+    line-height: 27px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 5px 0 10px;
+    cursor: move;
+}
+.manageSignIn .manageSignIn_head .head_closeIcon{
+    display: inline-block;
+    width: 20px;
+    height: 27px;
+    line-height: 27px;
+    background: url("../images/manageSignIn_icon.jpg") no-repeat;
+}
+.manageSignIn .manageSignIn_head .head_closeIcon:hover{
+    background: url("../images/manageSignIn_icon.jpg") no-repeat 0 -27px;
+    cursor: pointer;
+}
+.manageSignIn .manageSignIn_body{
+    padding-top: 25px;
+}
+.manageSignIn .manageSignIn_body label{
+    font: 100% Arial, Helvetica, sans-serif;
+    width: 120px;
+    height: 24px;
+    text-align: right;
+    line-height: 24px;
+    font-size: 14px;
+}
+.manageSignIn .manageSignIn_body .account_input,.manageSignIn .manageSignIn_body .password_input{
+    width: 180px;
+    height: 21px;
+    border: 1px solid #d6d6d6;
+}
+.manageSignIn .manageSignIn_body .choose{
+    color: #333;
+    padding-left: 124px;
+    line-height: 18px;
+}
+.manageSignIn .manageSignIn_body .choose_input{
+    position: relative;
+    top: 2px;
+}
+.manageSignIn .manageSignIn_body .choose_forgetPassword{
+    text-decoration: underline;
+    padding-left: 45px;
+}
+.manageSignIn .manageSignIn_body .submit_input{
+    width: 78px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background: #70caec;
+    margin: 10px 0 0 120px;
+    border: 1px solid #99dbf2;
+    box-shadow: 0 -1px 0 #7ec2df,
+    1px 0 0 #7ec2df,
+    -1px 0 0 #7ec2df,
+    0 1px 0 #7ec2df;
+    font: 14px Arial;
+}
+/* end 管理登录 */

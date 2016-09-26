@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>龙交易｜龙水购原料中心</title>
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/common.css" rel="stylesheet" />
+    <link href="../css/member-register.css" rel="stylesheet" />
+    <style>
+        .error{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+
+    <div class="header_top">
+        <div class="container clearfix">
+            <div class="shopCart pull-left">
+                <span class="shopCart_icon"></span>
+                <span class="shopCart_name">购物车</span>
+                <span class="shopCart_number">(0)</span>
+                <span class="shopCart_arrow"></span>
+                <div class="shopCart_select">
+                    <span class="select_text">你的购物车暂时没有任何产品</span>
+                    <a class="select_btn" href="#">查看我的购物车</a>
+                </div>
+            </div>
+            <div class="user pull-right">
+                <a href="member-center.html" class="user_signIn">登录</a>
+                <a href="member-register.html" class="user_register">注册</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header_search">
+        <div class="container clearfix">
+            <div class="logoImg pull-left">
+                <img src="../images/logoImg.png" alt="龙水购" />
+            </div>
+            <div class="textMsg pull-left">
+                <span>再生原料</span>
+                <span>交易平台</span>
+            </div>
+            <div class="searchBox pull-left">
+                <div class="searchBox_form">
+                    <form class="clearfix" action="#">
+                        <input class="form_text pull-left" type="text" name="" placeholder="还原铁 粉" />
+                        <input class="form_submit pull-left" type="submit" value="" />
+                    </form>
+                </div>
+                <div class="searchBox_links">
+                    <a href="#">H型钢</a>
+                    <a href="#">普厚板</a>
+                    <a href="#">热轧型钢</a>
+                    <a href="#">螺纹钢</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header_nav">
+        <div class="container">
+            <ul class="navList clearfix">
+                <a href="index.html"><li>首页</li></a>
+                <a target="_blank" href="http://www.longsgo.com/extends/index.php?module=topic&controller=index&action=custom"><li>
+                    交易商城
+                    <img class="hotIcon" src="../images/hot-icon.png" alt="HOT" />
+                </li></a>
+                <a href="member-center.html"><li>会员中心</li></a>
+                <a href="about-us.html"><li>关于我们</li></a>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<div class="content">
+    <div class="content_register">
+        <div class="container">
+            <div class="register">
+                <div class="register_head">
+                    <span class="head_title">会员注册</span>
+                </div>
+                <div class="register_form">
+                    <fieldset>
+                    <form id="registerForm" class="cmxform" action="">
+                        <div class="form_account">
+                            <p>
+                                <span>帐号：</span>
+                                <input id="account" name="account" type="text" />
+                                <em>*</em>
+                            </p>
+                        </div>
+                        <div class="form_password">
+                            <p>
+                                <span>密码：</span>
+                                <input id="password" name="password" class="password_input" type="password"/>
+                                <em>*</em>
+                            </p>
+                        </div>
+                        <div class="form_confirmPassword">
+                            <p>
+                                <span>确认密码：</span>
+                                <input id="confirm_password" name="confirm_password" class="confirmPassword_input" type="password" />
+                                <em>*</em>
+                            </p>
+                        </div>
+                        <div class="form_name">
+                            <p>
+                                <span>姓名：</span>
+                                <input class="name_input"  id="name" name="name" type="text" />
+                                <em>*</em>
+                            </p>
+                        </div>
+                        <div class="form_email">
+                            <p>
+                                <span>邮箱：</span>
+                                <input  id="email" name="email"  class="email_input" type="text" />
+                            </p>
+                        </div>
+                        <div class="form_phone">
+                            <p>
+                                <span>电话：</span>
+                                <input name="phone" class="phone_input" type="text" />
+                            </p>
+                        </div>
+                        <div class="form_message clearfix">
+                            <span>留言：</span>
+                            <textarea class="message_textarea"></textarea>
+                        </div>
+                        <div class="form_verificationCode">
+                            <p>
+                                <span>验证码：</span>
+                                <input name="verificationCode" class="verificationCode_input" type="text" />
+                                <img src="../images/validateCode.jpg" width="81" height="25" alt="验证码" />
+                            </p>
+                        </div>
+                        <p>
+                            <input class="form_btn submit" type="submit" value="注　册">
+                        </p>
+                    </form>
+                        </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+
+    <div class="footer_service">
+        <div class="container">
+            <div class="service">
+                <ul>
+                    <li>
+                        <strong class="service_strong">常用服务</strong>
+                        <span>问题咨询</span>
+                        <span>订单查询</span>
+                        <span>保修退换货</span>
+                        <span>上门安装</span>
+                    </li>
+                    <li>
+                        <strong class="service_strong">购物联盟</strong>
+                        <span>怎么购物</span>
+                        <span>积分查询</span>
+                        <span>礼品卡介绍</span>
+                    </li>
+                    <li>
+                        <strong class="service_strong">付款条例</strong>
+                        <span>在线付款</span>
+                        <span>货到付款</span>
+                        <span>发票说明</span>
+                        <span>其他支付方式</span>
+                    </li>
+                    <li>
+                        <strong class="service_strong">配送方式</strong>
+                        <span>易速快递</span>
+                        <span>上门自提</span>
+                        <span>价格保护</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_bottom">
+        <div class="container">
+            <p><a class="a-underline" href="#">首页</a> | <a class="a-underline" href="#">关于我们</a></p>
+            <p>2015 重庆龙水购电子商务有限公司 版权所有　渝ICP备15004120号-8</p>
+            <p>技术支持：<a target="_blank" href="http://www.lds398.com">龙水购</a> | <a href="javascript:;">管理登录</a></p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script src="../js/jquery-3.1.0.min.js"></script>
+<script src="../dist/js/bootstrap.min.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<script src="../js/messages_zh.js"></script>
+<script src="../js/common.js"></script>
+<script>
+    $().ready(function() {
+// 在键盘按下并释放及提交后验证提交表单
+        $("#registerForm").validate({
+            rules: {
+                name: "required",
+                account: {
+                    required: true,
+                    minlength: 2
+                },
+                password: {
+                    required: true,
+                    minlength: 6
+                },
+                confirm_password: {
+                    required: true,
+                    minlength: 6,
+                    equalTo: "#password"
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                verificationCode: "required",
+                "topic[]": {
+                    required: "#newsletter:checked",
+                    minlength: 2
+                },
+                agree: "required"
+            },
+            messages: {
+                name: "请输入您的姓名",
+                account: {
+                    required: "请输入账号",
+                    minlength: "账号最少由两个字符组成"
+                },
+                password: {
+                    required: "请输入密码",
+                    minlength: "密码长度不能小于 6 个字母"
+                },
+                confirm_password: {
+                    required: "请输入密码",
+                    minlength: "密码长度不能小于 6 个字母",
+                    equalTo: "两次密码输入不一致"
+                },
+                email: "请输入一个正确的邮箱",
+                verificationCode: "请输入验证码",
+                agree: "请接受我们的声明",
+                topic: "请选择两个主题"
+            },
+//            ignore:"['.ignore1,.igonre2']",//默认值是隐藏元素忽略
+//            onfocus:false,
+//            onkeyup:false,
+//            errorPlacement:function(errEl,el){
+////                console.log(errEl.appendTo($('.footer_bottom')))
+//            }, //默认值是放在el后面，定义这个属性会覆盖默认值；
+//            highlight:function(el){
+//                $(el).css('background','red');
+//            },
+//            success:function(errEl,el){
+//                console.log(el)
+//                $(el).css('background','');
+//            },
+            submitHandler: function(form) {
+//                $(form).submit(); 这里循环引用资源导致提交不了
+//                alert(1);
+                if(false) {
+                    form.submit();
+                }
+            }
+        });
+    });
+</script>
+
+</html>

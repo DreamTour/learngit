@@ -1,0 +1,152 @@
+.content_product .container{
+    padding-top: 7px;
+}
+.content_product .sidebar{
+    width: 210px;
+    margin-right: 10px;
+}
+.content_product .sidebar_head{
+    height: 40px;
+    line-height: 40px;
+    background: #2d2d2d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+.content_product .sidebar_body{
+    border: 1px solid #eeeeee;
+    border-top: none;
+}
+.content_product .sidebar_body .body_border{
+    height: 74px;
+    border-bottom: 1px dashed #999999;
+    margin: 0 10px;
+}
+.content_product .sidebar_body .body_border-none{
+    border: none;
+}
+.content_product .sidebar_body .body_QQService div{
+    padding-top: 10px;
+}
+.content_product .sidebar_body .QQService_icon{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: url("../images/product-detail/QQService.gif") no-repeat;
+    vertical-align: middle;
+}
+.content_product .sidebar_body .time_icon{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: url("../images/product-detail/time.png") no-repeat;
+    vertical-align: middle;
+}
+.content_product .sidebar_body .contact_icon{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: url("../images/product-detail/contact.png") no-repeat;
+    vertical-align: middle;
+}
+.content_product .sidebar_body .time_title,.content_product .sidebar_body .contact_title{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 45px;
+}
+.content_product .productDetail_head{
+    width: 980px;
+    border-bottom: 2px solid #cccccc;
+    height: 40px;
+}
+.content_product .productDetail_head .head_title{
+    display: block;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid #2d2d2d;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.content_product .body_title{
+    font-size: 18px;
+    color: #888;
+    padding-top: 18px;
+    text-align: center;
+}
+.content_product .body_sort{
+    padding-left: 380px;
+    text-align: left;
+    line-height: 26px;
+}
+.content_product .body_sortName{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color: #888;
+    padding-right: 6px;
+}
+.content_product .body_price-red{
+    color: #C30;
+    font-family: Arial;
+}
+.content_product .body_price-size1{
+    font-size: 14px;
+}
+.content_product .body_price-size2{
+    font-size: 24px;
+}
+.content_product .body_reduceIcon{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url("../images/product-detail/reduceIcon.png") no-repeat;
+}
+.content_product .body_increaseIcon{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url("../images/product-detail/increaseIcon.png") no-repeat;
+}
+.content_product .body_inputText{
+    width: 52px;
+    height: 18px;
+    border: 1px solid #8f8f8f;
+    text-align: center;
+}
+.content_product .body_btn{
+    text-align: center;
+}
+.content_product .body_btn a{
+    display: inline-block;
+    width: 140px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+    margin: 40px 0;
+}
+.content_product .body_btn .body_joinBtn{
+    background: #ffeded;
+    border: 1px solid #b30000;
+    color: #c40000;
+    margin-right: 10px;
+}
+.content_product .body_btn .body_reserveBtn{
+    background: #b30000;
+    color: #fff;
+}
+.content_product .body_p{
+    margin-bottom: 20px;
+}
+.content_product .body_p .body_next{
+    text-decoration: underline;
+}
+
+.footer_service .service{
+    width: 970px;
+    margin-left: 220px;
+}

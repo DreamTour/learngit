@@ -1,0 +1,76 @@
+.content_article .article{
+    width: 980px;
+    margin: 6px 0 0 200px;
+}
+.content_article .article_head{
+    width: 980px;
+    border-bottom: 2px solid #cccccc;
+    height: 40px;
+}
+.content_article .article_head .head_title{
+    display: block;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid #2d2d2d;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.content_article .article_list{
+    padding-top: 10px;
+}
+.content_article .article_list .list_option{
+    display: block;
+    height: 31px;
+    line-height: 31px;
+    border-bottom: 1px dashed #999999;
+    padding-bottom: 1px;
+    margin: 0 5px;
+}
+.content_article .article_list li{
+    height: 29px;
+    line-height: 29px;
+    padding: 0 5px;
+    color: #666;
+}
+.content_article .article_list .option_sort{
+    float: right;
+    font-style: normal;
+    padding-right: 18px;
+    color: #a7a7a7;
+}
+.content_article .article_list .option_time{
+    float: right;
+}
+.content_article .article_list li:hover{
+    background: #dddddd;
+    color: #000000;
+}
+.content_article .article_flip{
+    padding: 10px 0 10px 5px;
+}
+.content_article .article_flip span{
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 7px;
+    border: 1px solid #cccccc;
+}
+.content_article .article_flip .flip_span-active{
+    border: none;
+}
+.content_article .article_flip span:hover{
+    cursor: pointer;
+    background: #ddd;
+    color: #000000;
+}
+.content_article .article_flip .flip_span-active:hover{
+    cursor: auto;
+    background: none;
+}
+
+.footer_service .service{
+    width: 980px;
+    margin-left: 200px;
+}

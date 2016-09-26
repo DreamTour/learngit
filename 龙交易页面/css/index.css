@@ -1,0 +1,435 @@
+/*content*/
+.content_scrollIndex{
+    background: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.content_scrollIndex .scrollIndexWrap{
+    overflow: hidden;
+}
+.content_scrollIndex .scrollIndex_textWrap{
+    width: 2400px;
+    height: 40px;
+}
+.content_scrollIndex .scrollIndex_text{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+.content_scrollIndex .text_span1{
+    color: #fff;
+}
+.content_scrollIndex .text_span3{
+    color: #009900;
+    padding-right: 15px;
+}
+.content_scrollIndex .text_span4{
+    color: #009900;
+    position: relative;
+}
+.content_scrollIndex .text_arrowIcon{
+    position: absolute;
+    top: -2px;
+    left: -10px;
+}
+.content_scrollIndex .text_span-red{
+    color: #ff0000;
+}
+
+.content_sentence{
+    background: #dbdbdb;
+}
+.content_sentence .sentenceListWrap{
+    padding-top: 10px;
+    height: 50px;
+    overflow: hidden;
+}
+.content_sentence .sentenceList li{
+    font-size: 14px;
+    line-height: 35px;
+}
+.content_sentence .sentenceList li:hover{
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content_topMessage{
+    background: #000000;
+}
+.content_topMessage .imgList li{
+    width: 385px;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    overflow:hidden;
+}
+.content_topMessage .imgList img{
+    width: 100%;
+    height: 100%;
+}
+.content_topMessage .imgList .imgList_text{
+    background: rgba(00,00,00,0.6);
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: -30px;
+    transition: bottom ease .5s;
+    -moz-transition: bottom ease .5s;
+    -webkit-transition: bottom ease .5s;
+    -o-transition: bottom ease .5s;
+}
+.content_topMessage .imgList li:hover .imgList_text{
+    bottom: 0;
+}
+.content_topMessage .messageList{
+    margin-top: 20px;
+}
+.content_topMessage .messageList_li{
+    width: 390px;
+    height: 240px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+.content_topMessage .messageList .messageList_head{
+    height: 37px;
+    border-bottom: 2px dotted #cccccc;
+}
+.content_topMessage .messageList_head .head_icon{
+    display: inline-block;
+    width: 7px;
+    height: 22px;
+    background: url("../images/index/green-ellipse-icon.jpg") no-repeat;
+    margin: 6px;
+}
+.content_topMessage .messageList_head .head_text{
+    height: 37px;
+    line-height: 36px;
+    color: #4b762c;
+    font-size: 14px;
+}
+.content_topMessage .messageList_head .head_more{
+    display: inline-block;
+    width: 47px;
+    height: 35px;
+    background: url("../images/index/topMessage-more.jpg") no-repeat center;
+}
+.content_topMessage .messageList_body{
+    padding: 5px 0;
+    margin: 0 5px;
+    border-bottom: 1px dashed #4b762c;
+}
+.content_topMessage .messageList_body .body_pic{
+    width: 152px;
+    height: 107px;
+    padding-right: 10px;
+}
+.content_topMessage .messageList_body .body_img{
+    width: 100%;
+    height: 100%;
+}
+.content_topMessage .messageList_body .body_text{
+    width: 218px;
+    color: #333;
+}
+.content_topMessage .messageList_body .text_title{
+    line-height: 22px;
+}
+.content_topMessage .messageList_body .text_span{
+    font-weight: normal;
+}
+.content_topMessage .messageList_body .text_p{
+    margin: 0;
+}
+.content_topMessage .messageList_foot-height1{
+    height: 62px;
+    overflow: hidden;
+}
+.content_topMessage .messageList_foot-height2{
+    height: 160px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+.content_topMessage .messageList_foot a{
+    display: block;
+    height: 31px;
+    line-height: 31px;
+    border-bottom: 1px dashed #4b762c;
+    padding-bottom: 1px;
+    margin: 0 5px;
+}
+.content_topMessage .messageList_foot span{
+    float: right;
+}
+.content_topMessage .messageList_foot li{
+    height: 29px;
+    line-height: 29px;
+    color: #333;
+}
+.content_topMessage .messageList_foot li:hover{
+    background: #85ad4b;
+}
+
+.content_topMessageDownBanner{
+    background: #4d4d4d;
+}
+.content_topMessageDownBanner .banner{
+    width: 812px;
+    height: 97px;
+    margin: 10px 0 20px 200px;
+    background: #fff;
+    border: 4px solid #dbdbdb;
+}
+.content_topMessageDownBanner .banner_text{
+    height: 97px;
+    line-height: 97px;
+    font-size: 16px;
+    color: #333;
+    padding-left: 15px;
+}
+.content_topMessageDownBanner .banner_icon{
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: -12px;
+}
+.content_topMessageDownBanner .banner_more{
+    padding-top: 34px;
+}
+.content_topMessageDownBanner .banner_logo{
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+.content_regenerate{
+    background: #000000;
+}
+.content_regenerate .regenerateWrap{
+    padding: 20px 0 5px 0;
+}
+.content_regenerate .regenerate_bg1{
+    background: url("../images/index/regenerate_bg1.jpg") no-repeat;
+}
+.content_regenerate .regenerate_bg2{
+    background: url("../images/index/regenerate_bg2.jpg") no-repeat;
+}
+.content_regenerate .regenerate{
+    width: 590px;
+    height: 380px;
+    padding: 0 5px;
+    float: left;
+    margin: 0 15px 10px 0;
+}
+.content_regenerate .regenerate_title{
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+.content_regenerate .regenerate_head{
+    width: 580px;
+    background: #cccccc;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+.content_regenerate span{
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.content_regenerate .head_name,.content_regenerate .body_name{
+    width: 190px;
+}
+.content_regenerate .head_supply,.content_regenerate .body_supply{
+    width: 90px;
+}
+.content_regenerate .head_deal,.content_regenerate .body_deal{
+    width: 100px;
+}
+.content_regenerate .head_logistics,.content_regenerate .body_logistics{
+    width: 100px;
+}
+.content_regenerate .head_price,.content_regenerate .body_price{
+    width: 100px;
+}
+.content_regenerate .regenerate_body{
+    height: 305px;
+    overflow: hidden;
+}
+.content_regenerate .regenerate_body .body_list{
+    padding-top: 5px;
+}
+.content_regenerate .regenerate_body li{
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+}
+.content_regenerate .regenerate_body li:hover{
+    background: #999999;
+}
+.content_regenerate .body_name{
+    text-align: left;
+    padding-left: 5px;
+    color: #fff;
+}
+.content_regenerate .body_price{
+    color: #ad0707;
+    font-weight: bold;
+}
+
+.content_AdPic{
+    padding: 10px 0 20px 200px;
+}
+
+.content_waste .wasteList{
+    margin-top: 20px;
+}
+.content_waste .wasteList_li{
+    width: 390px;
+    background: #fff;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+.content_waste .wasteList .wasteList_head{
+    height: 32px;
+    border-bottom: 2px solid #9c9c9c;
+}
+.content_waste .wasteList_head .head_text{
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    border-bottom: 2px solid #0549a5;
+    color: #333;
+    padding: 0 5px;
+}
+.content_waste .wasteList_head .head_more{
+    display: inline-block;
+    width: 66px;
+    height: 35px;
+    background: url("../images/index/waste-more.jpg") no-repeat center;
+    padding-right: 20px;
+}
+.content_waste .wasteList_body{
+    padding: 5px 0;
+    margin: 0 5px;
+}
+.content_waste .wasteList_body .body_pic{
+    width: 152px;
+    height: 107px;
+    padding-right: 10px;
+}
+.content_waste .wasteList_body .body_img{
+    width: 100%;
+    height: 100%;
+}
+.content_waste .wasteList_body .body_text{
+    width: 218px;
+    color: #333;
+}
+.content_waste .wasteList_body .text_title{
+    line-height: 22px;
+}
+.content_waste .wasteList_body .text_span{
+    font-weight: normal;
+}
+.content_waste .wasteList_body .text_p{
+    margin: 0;
+}
+.content_waste .wasteList_foot a{
+    display: block;
+    height: 31px;
+    line-height: 31px;
+    border-top: 1px dashed #999;
+    padding-bottom: 1px;
+    margin: 0 5px;
+}
+.content_waste .wasteList_foot li{
+    height: 29px;
+    line-height: 29px;
+    padding: 0 5px;
+    color: #333;
+}
+.content_waste .wasteList_foot span{
+    float: right;
+}
+.content_waste .wasteList_foot li:hover{
+    background: #0046a5;
+    color: #fff;
+}
+.content_waste .departmentWrap{
+    padding: 50px 0 40px 180px;
+}
+.content_waste .department{
+    float: left;
+    margin-right: 50px;
+}
+.content_waste .department_text{
+    padding-left: 40px;
+}
+.content_waste .department_text li{
+    color: #000000;
+    line-height: 20px;
+}
+
+.content_wasteDownBanner .banner{
+    width: 1200px;
+    height: 332px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    float: left;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+}
+.content_wasteDownBanner .banner_head{
+    height: 37px;
+    border-bottom: 2px dotted #fff;
+}
+.content_wasteDownBanner .banner_head .head_icon{
+    display: inline-block;
+    width: 7px;
+    height: 22px;
+    background: url("../images/index/green-ellipse-icon.jpg") no-repeat;
+    margin: 6px;
+}
+.content_wasteDownBanner .banner_head .head_text{
+    height: 37px;
+    line-height: 36px;
+    color: #4b762c;
+    font-size: 14px;
+}
+.content_wasteDownBanner .banner_body{
+    border-top: 2px dotted #cccccc;
+    text-align: center;
+    padding-top: 50px;
+}
+.content_wasteDownBanner .banner_body strong{
+    font-size: 28px;
+    color: #33CCFF;
+    display: block;
+    line-height: 50px;
+}
+.content_wasteDownBanner .banner_body strong a{
+    color: #01B0F1;
+}
+.content_wasteDownBanner .banner_body .a-color{
+    color: #33CCFF;
+}
+/*end content*/
+

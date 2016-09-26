@@ -1,0 +1,45 @@
+.content_article .article{
+    width: 950px;
+    margin: 30px 0 0 200px;
+}
+.content_article .article_head{
+    border-bottom: 1px dashed #cccccc;
+}
+.content_article .head_title{
+    font-size: 18px;
+    text-align: center;
+}
+.content_article .jiathis_style{
+    padding-top: 20px;
+}
+.content_article .jiathis_style a{
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+.content_article .body_pic{
+    padding-top: 5px;
+    text-align: center;
+}
+.content_article .article_body p{
+    margin: 0;
+    line-height: 25px;
+    font-size: 14px;
+}
+.content_article .body_btn{
+    text-align: center;
+    padding: 60px 0 20px 0;
+}
+.content_article .body_btn a{
+    display: inline-block;
+    width: 46px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    margin-right: 15px;
+}
+
+.footer_service .service{
+    width: 950px;
+    margin-left: 200px;
+}

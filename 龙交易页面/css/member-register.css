@@ -1,0 +1,102 @@
+.content_register .register{
+    width: 980px;
+    margin: 6px 0 0 200px;
+}
+.content_register .register_head{
+    width: 980px;
+    border-bottom: 2px solid #cccccc;
+    height: 40px;
+}
+.content_register .register_head .head_title{
+    display: block;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 2px solid #2d2d2d;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.content_register .register_form{
+    width: 330px;
+    margin: 0 auto;
+    padding-top: 26px;
+}
+.content_register .register_form input{
+    width: 185px;
+    height: 25px;
+    border: 1px solid #dadada;
+    background: #f7f7f7;
+    margin-bottom: 12px;
+    outline: none;
+}
+.content_register .register_form span{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.content_register .register_form em{
+    font-style: normal;
+    color: #ff0000;
+    padding-left: 10px;
+}
+.content_register .register_form .message_textarea{
+    width: 186px;
+    max-width: 764px;
+    height: 72px;
+    border: 1px solid #dadada;
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    outline: none;
+}
+.content_register .register_form .form_message span{
+    float: left;
+    margin-right: 4px;
+}
+.content_register .register_form .verificationCode_input{
+    width: 73px;
+    margin-right: 8px;
+}
+.content_register .register_form .form_verificationCode img:hover{
+    cursor: pointer;
+}
+/*表单验证*/
+.content_register .register_form div{
+    position: relative;
+}
+.content_register .register_form label{
+    width: 200px;
+    position: absolute;
+    top: 4px;
+    right: -200px;
+    text-align: left;
+}
+/*end 表单验证*/
+.content_register .register_form .form_btn{
+    width: 330px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    background: #ff5555;
+    border: 1px solid #ff8484;
+    box-shadow: 0 -1px 0 #ff0000,
+    1px 0 0 #ff0000,
+    -1px 0 0 #ff0000,
+    0 1px 0 #ff0000;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.content_register .form_btn:hover{
+    cursor: pointer;
+}
+.content_register .register_form p{
+    margin: 0;
+}
+
+.footer_service .service{
+    width: 980px;
+    margin-left: 200px;
+}
