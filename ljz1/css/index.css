@@ -1,0 +1,267 @@
+/*banner*/
+.banner{
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+.banner_pic{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.banner_pic div{
+    width: 25%;
+    height: 450px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+.banner_pic .banner_pic_2{
+    left:25%;
+    position: absolute;
+}
+.banner_pic .banner_pic_3{
+    left:50%;
+    position: absolute;
+}
+.banner_pic .banner_pic_4{
+    left:75%;
+    position: absolute;
+}
+.banner_pic .banner_pic_2 img{
+    position:relative;
+    left: -100%;
+}
+.banner_pic .banner_pic_3 img{
+    left: -200%;
+    position:relative;
+}
+.banner_pic .banner_pic_4 img{
+    left: -300%;
+    position:relative;
+}
+.banner .prev,.banner .next{
+    display: block;
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.banner .prev{
+    background: url("../images/index/banner/prev.png") no-repeat rgba(0,0,0,0.1);
+    left: 20px;
+}
+.banner .next{
+    background: url("../images/index/banner/next.png") no-repeat rgba(0,0,0,0.1);
+    right: 20px;
+}
+/*end banner*/
+
+/*product-center*/
+.product-center{
+    height: 614px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.product-center .text{
+    height: 254px;
+    text-align: center;
+    background: url("../images/index/product-center-bg.jpg") no-repeat;
+    overflow: hidden;
+}
+.product-center .text strong{
+    font-size: 19px;
+    color: #ea0e0e;
+    font-weight: normal;
+    padding-top: 42px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+.product-center .text span{
+    font-size: 17px;
+    padding-top: 30px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #333333;
+}
+.product-center .text i{
+    color: #666666;
+    font-size: 14px;
+}
+.product-center .text p{
+    color: #999999;
+    font-size: 14px;
+}
+.product-center .product-show {
+    width: 1220px;
+    margin: 0 auto;
+}
+.product-center .product-show .text {
+    width: 1220px;
+    height: 361px;
+    margin: 0 auto;
+}
+.product-center .product-show li{
+    float: left;
+    width: 235px;
+    height: 358px;
+    padding-left: 5px;
+}
+.product-center .product-show span{
+    display: block;
+    font-size: 18px;
+    padding-top: 21px;
+    height: 32px;
+    line-height: 32px;
+}
+.product-center .product-show a{
+    display: block;
+    margin-top: 25px;
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background: #535353;
+    color: #fefefe;
+}
+.product-center .product-show a:hover{
+    background: #ea0e0e;
+}
+/*end product-center*/
+
+/*about-us*/
+.about-us-wrap{
+    height: 437px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.about-us{
+    width: 1200px;
+    height: 437px;
+    margin: 0 auto;
+}
+.about-us .head{
+    padding-top: 65px;
+    height: 73px;
+}
+.about-us .head span{
+    font-size: 19px;
+    color: #ea0e0e;
+}
+.about-us .head p{
+    font-size: 14px;
+    font-family: Arial;
+}
+.about-us .head .head_right a{
+    display: block;
+    font-size: 14px;
+    padding-right: 20px;
+    color: #666666;
+}
+.about-us .head .head_right a:hover{
+    color: #ea0e0e;
+}
+.about-us .body .text{
+    width: 590px;
+    font-size: 14px;
+    color: #666;
+}
+.about-us .body .text p{
+    line-height: 25px;
+    padding-bottom: 30px;
+    text-indent: 2em;
+}
+.about-us .body .text span{
+    display: block;
+    line-height: 25px;
+}
+/*end about-us*/
+
+/*news-information*/
+.news-information{
+    width: 1200px;
+    height: 590px;
+    margin: 0 auto;
+}
+.news-information .head{
+    padding-top: 50px;
+    height: 73px;
+}
+.news-information .head span{
+    font-size: 19px;
+    color: #ea0e0e;
+}
+.news-information .head p{
+    font-size: 14px;
+    font-family: Arial;
+}
+.news-information .head .head_right a{
+    display: block;
+    font-size: 14px;
+    padding-right: 20px;
+    color: #666666;
+}
+.news-information .head .head_right a:hover{
+    color: #ea0e0e;
+}
+.news-information .pic{
+    width: 561px;
+    height: 416px;
+    background: url("../images/index/news-information/1.png") no-repeat;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+.news-information .pic:hover{
+    background: url("../images/index/news-information/2.png") no-repeat;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.news-information .content{
+    width: 610px;
+}
+.news-information .content .text{
+    width: 380px;
+}
+.news-information .content span{
+    display: block;
+    float: left;
+    font-size: 15px;
+    line-height: 20px;
+}
+.news-information .content i{
+    display: block;
+    float: right;
+    font-size: 15px;
+    color: #999999;
+    padding-right: 10px;
+}
+.news-information .content p{
+    clear: both;
+    color: #666666;
+    line-height: 25px;
+    font-size: 13px;
+    padding-right: 10px;
+}
+.news-information .content li{
+    width: 610px;
+    height: 84px;
+    padding-top: 16px;
+    border-bottom: 1px dashed #dbdbdb;
+}
+.news-information .content .clear-border{
+    border: none;
+}
+.news-information .content .details{
+    color: #666666;
+    display: block;
+    padding-top: 15px;
+}
+.news-information .content .details:hover {
+    color: #ea0e0e;
+}
+/*end news-information*/

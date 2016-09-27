@@ -1,0 +1,30 @@
+
+.content{
+    padding: .8rem 1rem 1.6rem 1rem;
+}
+.content .pic{
+    height: 12rem;
+}
+.content .pic-img{
+    width: 100%;
+    height: 100%;
+}
+.content .msg {
+    margin-top: 2rem;
+    height: 12rem;
+    background-color: rgb(204, 204, 204);
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 微软雅黑;
+}
+.content .msg .msg-left,.content .msg .msg-right{
+    width: 50%;
+    padding-right: 1rem;
+}
+.content .msg span{
+    display: block;
+    line-height: 2.4rem;
+}
+.content .distance{
+    padding-bottom: 2.4rem;
+}

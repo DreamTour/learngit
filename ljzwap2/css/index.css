@@ -1,0 +1,95 @@
+body{
+    background: url("../images/page-bg.jpg") no-repeat center;
+}
+.boxes{
+    padding: 1.5%;
+}
+.boxes li{
+    width: 32.3%;
+    height: 9rem;
+}
+.boxes img{
+    width: 100%;
+    height: 100%;
+}
+.boxes .box{
+    background-color: #0172c2;
+    position: relative;
+}
+.boxes .box-margin{
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+}
+.boxes .box-icon{
+    position: absolute;
+    top: 18%;
+    left: 0;
+    right: 0;
+    width: 3rem;
+    margin: auto;
+}
+.boxes p{
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.7rem;
+}
+.boxes i{
+    color: #fff;
+}
+
+.news-list{
+    color: #fff;
+    padding: .5rem 0;
+}
+.news-list a{
+    color: #fff;
+}
+.news-list-title{
+    width: auto;
+    padding: 0.5rem 1rem 1rem 1rem;
+    display: inline;
+    border-bottom: 2px solid #0a92c7;
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.news-list h2{
+    border-bottom: 1px solid #222222;
+}
+.news-list h2 a{
+    font-size: 2rem;
+    padding-right: 0.6rem;
+}
+.news-list li{
+    border-bottom: 1px solid #222222;
+    padding: 1rem 3rem .8rem 2.8rem;
+    position: relative;
+}
+.news-list .clear-border{
+    border: none;
+}
+.news-list em{
+    display: inline-block;
+    content: "";
+    width: .4rem;
+    height: .4rem;
+    background: #585858;
+    -webkit-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 50%;
+    position: relative;
+    top: -.3rem;
+    left: -.6rem;
+}
+.news-list span{
+    position: absolute;
+    top: 0.6rem;
+    right: 0.8rem;
+    color: #585858;
+}
+
+

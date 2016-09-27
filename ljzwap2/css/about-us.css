@@ -1,0 +1,17 @@
+.banner{
+    padding: 1.2rem 0 0 .5rem;
+}
+
+.paragraph{
+    padding: .5rem 1.4rem 4rem 1.4rem;
+    font-size: 1.8rem;
+}
+.paragraph p{
+    color: #f2f2f2;
+}
+.paragraph .paragraph-p1{
+    text-indent: 1em;
+}
+.paragraph .paragraph-p2{
+    text-indent: 2em;
+}

@@ -1,0 +1,307 @@
+/*enterprise-msg*/
+.enterprise-msg{
+    width: 930px;
+    height: 159px;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-family: 微软雅黑;
+}
+.enterprise-msg strong{
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+}
+.enterprise-msg li{
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+/*end enterprise-msg*/
+
+/*service*/
+.service-wrap{
+    height: 103px;
+    background: #e9e9e9;
+}
+.service{
+    width: 880px;
+    height: 103px;
+    margin: 0 auto;
+    font-family: 微软雅黑;
+}
+.service .qq-service{
+    padding-top: 20px;
+}
+.service .qq-service p{
+    line-height: 30px;
+}
+.service .qq-service strong{
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.service .phone-service{
+    width: 240px;
+    height: 50px;
+    padding: 30px 65px 0 0;
+}
+.service .phone-service .text p{
+    height: 26px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+/*end service*/
+
+/*banner*/
+.banner .banner_top{
+    height: 400px;
+    background: url("../images/banner/1.jpg") no-repeat center;
+}
+.banner .banner_list-wrap{
+    background: #e9e9e9;
+    height: 317px;
+}
+.banner .banner_list{
+    width: 1260px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 5px;
+    color: #666666;
+    overflow: hidden;
+}
+.banner .banner_list em{
+    position: relative;
+    left: 6px;
+    top: -1px;
+}
+.banner .banner_list strong{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 微软雅黑;
+}
+.banner .banner_list p{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.banner .banner_list li{
+    width: 300px;
+    font-size: 14px;
+    float: left;
+    margin-right: 20px;
+}
+.banner .banner_list .clear-margin{
+    margin-right: 0;
+}
+.banner .banner_propaganda-wrap{
+    background: #dbdbdb;
+    height: 259px;
+}
+.banner .banner_propaganda{
+    width: 900px;
+    margin: 0 auto;
+}
+.banner .banner_propaganda .text{
+    width: 340px;
+    height: 140px;
+    margin-top: 75px;
+    font-family: 微软雅黑;
+}
+.banner .banner_propaganda strong{
+    display: block;
+    font-size: 26px;
+}
+.banner .banner_propaganda span{
+    display: block;
+    font-size: 26px;
+    margin-top: 40px;
+}
+.banner .banner_propaganda i{
+    display: block;
+    font-size: 20px;
+}
+.banner .banner_bottom{
+    height: 401px;
+    background: url("../images/banner/7.jpg") no-repeat center;
+}
+/*end banner*/
+
+/*main*/
+.main .product-display{
+    width: 920px;
+    height: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.main .product-display .pic{
+    width: 209px;
+    height: 200px;
+    overflow: hidden;
+}
+.main .product-display .pic img{
+    transition: margin-left 500ms;
+}
+.main .product-display .pic:hover img{
+    margin-left: -10px;
+}
+.main .product-display h4{
+    height: 54px;
+    line-height: 54px;
+    color: #666666;
+}
+.main .product-display ul{
+    width: 1200px;
+    position: absolute;
+    right:0;
+}
+.main .product-display li{
+    float: right;
+    width: 200px;
+    text-align: center;
+    margin-right: 30px;
+}
+.main .product-display li a{
+    color: #666;
+    line-height: 30px;
+}
+.main .enterprise-dynamic{
+    width: 960px;
+    height: 430px;
+    overflow: hidden;
+    margin: 10px auto 0 auto;
+}
+.main .enterprise-dynamic .part{
+    width: 470px;
+    height: 430px;
+    overflow: hidden;
+}
+.main .enterprise-dynamic li{
+    padding: 12px 0 18px 5px;
+    border-bottom: 1px dashed #eeeeee;
+    width: 465px;
+    height: 160px;
+}
+.main .enterprise-dynamic h4{
+    width: 470px;
+    height: 45px;
+    border-bottom: 1px solid #dddddd;
+    line-height: 45px;
+    position: relative;
+    color: #00235c;
+}
+.main .enterprise-dynamic h4 a{
+     position: absolute;
+     right: 22px;
+ }
+.main .enterprise-dynamic .text{
+    width: 214px;
+    height: 160px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.main .enterprise-dynamic .text strong{
+    font-size: 14px;
+    line-height: 24px;
+    color: #5e5e5e;
+}
+.main .enterprise-dynamic .text span{
+    float: right;
+    display: block;
+    padding: 6px 0 0 10px;
+}
+.main .enterprise-dynamic .text p{
+    color: #797979;
+    clear: both;
+    line-height: 20px;
+}
+.main .enterprise-dynamic .text em{
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background: url("../images/enterprise-dynamic/essence-bg.gif") no-repeat 0 -42px;
+    position: relative;
+    top: 2px;
+}
+.main .development-direction{
+    width: 960px;
+    height: 720px;
+    overflow: hidden;
+    margin: 10px auto 0 auto;
+}
+.main .development-direction h4{
+    width: 960px;
+    height: 32px;
+    line-height: 32px;
+    position: relative;
+    border-bottom: 1px solid #dddddd;
+    color: #00235c;
+}
+.main .development-direction h4 a{
+    position: absolute;
+    right: 22px;
+}
+.main .development-direction li{
+    padding: 12px 10px 18px 5px;
+    width: 945px;
+    height: 200px;
+    border-bottom: 1px dashed #eeeeee;
+}
+.main .development-direction .text{
+    width: 430px;
+    height: 220px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.main .development-direction .text strong{
+    font-size: 14px;
+    float: left;
+    display: block;
+    width: 350px;
+    line-height: 24px;
+    color: #5e5e5e;
+}
+.main .development-direction .text span{
+    float: right;
+    display: block;
+    padding-top: 6px;
+}
+.main .development-direction .text p{
+    color: #797979;
+    clear: both;
+    line-height: 20px;
+}
+.main .technical-strength-wrap{
+    height: 385px;
+    background: url("../images/technical-strength-bg.jpg") no-repeat center;
+}
+.main .technical-strength{
+    width: 550px;
+    color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 微软雅黑;
+}
+.main .technical-strength h2{
+    font-size: 21px;
+    width: 550px;
+    height: 32px;
+    padding-top: 8px;
+}
+.main .technical-strength .list{
+    width: 550px;
+    height: 320px;
+    overflow: hidden;
+}
+.main .technical-strength li{
+    width: 550px;
+    height: 350px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 2.6em;
+    color: #dbdbdb;
+    font-family: 微软雅黑;
+}
+/*end main*/

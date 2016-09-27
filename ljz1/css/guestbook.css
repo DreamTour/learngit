@@ -1,0 +1,164 @@
+/*banner*/
+.banner{
+    height: 300px;
+    background: url("../images/message-board/banner-bg.jpg") no-repeat center;
+}
+/*end banner*/
+
+/*main*/
+.main{
+    width: 1160px;
+    min-height: 530px;
+    margin: 0 auto;
+    color: #747474;
+    overflow: hidden;
+}
+.main h4{
+    height: 77px;
+    line-height: 77px;
+    font-weight: normal;
+}
+.main  .user input{
+    width: 196px;
+    height: 32px;
+    border: 1px solid #dadada;
+}
+.main  .user div{
+    float: left;
+    padding-right: 98px;
+}
+.main .name i{
+    color: red;
+    padding-left: 8px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.main textarea{
+    width: 912px;
+    max-width: 912px;
+    height: 73px;
+    color: #a9a9a9;
+    padding: 5px 0 0 10px;
+    font-size: 14px;
+    border: 1px solid #dadada;
+}
+.main .content{
+    margin-bottom: 20px;
+}
+.main .content span{
+    position: relative;
+    top: -40px;
+}
+.main input{
+    margin-bottom: 20px;
+}
+.main .verification-code input{
+    width: 108px;
+    height: 32px;
+    border: 1px solid #dadada;
+}
+.main .verification-code a{
+    position: relative;
+    top: -2px;
+    left: 10px;
+}
+.main span{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.main .btn{
+    display: block;
+    width: 240px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 14px;
+    background: url("../images/message-board/2.jpg") no-repeat;
+    margin: 0 0 20px 60px;
+}
+.main strong{
+    display: block;
+    width: 1070px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    border-bottom: 1px dotted #dadada;
+}
+.main p{
+    padding-top: 30px;
+}
+.main .flip{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.main .flip .page{
+    width: 68px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    color: #d6d6d6;
+    position: relative;
+}
+.main .flip .prev-arrow{
+    border-top: 4px solid transparent;
+    border-right: 4px solid #d6d6d6;
+    border-bottom: 4px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 9px;
+}
+.main .flip .next-arrow{
+    border-top: 4px solid transparent;
+    border-left: 4px solid #d6d6d6;
+    border-bottom: 4px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+}
+.main .flip .num{
+    width: 35px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+}
+.main .flip .total{
+    width: 57px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+}
+.main .flip .to-page{
+    width: 168px;
+    height: 28px;
+    line-height: 28px;
+}
+.main .flip .to-page input{
+    width: 47px;
+    height: 25px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    margin: 0 5px;
+    text-align: center;
+}
+.main .flip .to-page a{
+    display: inline-block;
+    width: 48px;
+    height: 25px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    color: #747474;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.main .flip div{
+    float: left;
+}
+/*end main*/

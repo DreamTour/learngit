@@ -1,0 +1,152 @@
+/*公共样式*/
+.h4-title{
+    width: 960px;
+    height: 27px;
+    line-height: 27px;
+    color: #00235c;
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+}
+/*end 公共样式*/
+
+/*video*/
+.video-wrap{
+    height: 536px;
+    background: #c8c8c8;
+}
+.video{
+    width: 500px;
+    height: 520px;
+    margin: 0 auto;
+    background: url("../images/video-bg.jpg") no-repeat center;
+    padding-top: 20px;
+}
+.video-wrap object{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 54px auto 0 auto;
+}
+/*end video*/
+
+/*enterprise-introduce*/
+.enterprise-introduce{
+    width: 960px;
+    height: 428px;
+    margin: 15px auto 0 auto;
+    overflow: hidden;
+}
+.enterprise-introduce .body{
+    padding: 10px 0 0 10px;
+}
+.enterprise-introduce .text{
+    width: 410px;
+    padding-left: 10px;
+}
+.enterprise-introduce .text p{
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 25px;
+}
+/*end enterprise-introduce*/
+
+/*organizational-structure*/
+.organizational-structure{
+    width: 960px;
+    height: 511px;
+    margin: 0 auto;
+}
+.organizational-structure .pic{
+    width: 500px;
+    height: 420px;
+    margin: 0 auto;
+}
+/*end organizational-structure*/
+
+/*speech*/
+.speech{
+    width: 960px;
+    height: 542px;
+    margin: 0 auto;
+}
+.speech .body{
+    padding-top: 6px;
+}
+.speech .body .pic{
+    width: 762px;
+    height: 297px;
+    margin: 0 auto;
+}
+.speech .body p{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 微软雅黑;
+}
+.speech .body .body_p1,.speech .body .body_p2{
+    text-indent: 2em;
+}
+.speech .body .body_p2,.speech .body .body_p3{
+    padding-top: 20px;
+}
+/*end speech*/
+
+/*enterprise-dynamic*/
+.enterprise-dynamic{
+    width: 960px;
+    height: 982px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.enterprise-dynamic .part{
+    width: 470px;
+    height: 942px;
+    overflow: hidden;
+}
+.enterprise-dynamic li{
+    padding: 12px 0 18px 5px;
+    border-bottom: 1px dashed #eeeeee;
+    width: 465px;
+    height: 200px;
+}
+.enterprise-dynamic h4{
+    width: 470px;
+    height: 45px;
+    border-bottom: 1px solid #dddddd;
+    line-height: 45px;
+    position: relative;
+    color: #00235c;
+}
+.enterprise-dynamic h4 a{
+    position: absolute;
+    right: 22px;
+}
+.enterprise-dynamic .text{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.enterprise-dynamic .text strong{
+    font-size: 14px;
+    line-height: 24px;
+    color: #5e5e5e;
+}
+.enterprise-dynamic .text span{
+    float: right;
+    display: inline-block;
+    padding: 6px 0 0 10px;
+}
+.enterprise-dynamic .text p{
+    color: #797979;
+    clear: both;
+    line-height: 20px;
+}
+.enterprise-dynamic .text em{
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background: url("../images/enterprise-dynamic/essence-bg.gif") no-repeat 0 -42px;
+    position: relative;
+    top: 2px;
+}
+/*end enterprise-dynamic*/

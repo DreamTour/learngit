@@ -1,0 +1,48 @@
+/*banner*/
+.banner{
+    height: 300px;
+    background: url("../images/news/banner-bg.jpg") no-repeat center;
+}
+/*end banner*/
+
+/*main*/
+.main{
+    padding-top: 15px;
+    width: 1190px;
+    height: 616px;
+    margin: 0 auto;
+}
+.main li{
+    padding-top: 20px;
+    height: 115px;
+    border-bottom: 1px dashed #666666;
+}
+.main .text{
+    width: 930px;
+}
+.main .text strong{
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 28px;
+    color: #666666;
+}
+.main .text span{
+    display: block;
+    float: right;
+    color: #666666;
+}
+.main .text p{
+    clear: both;
+    line-height: 20px;
+    color: #666666;
+}
+.main .flip{
+    padding-top: 36px;
+    color: #666666;
+    padding-left: 12px;
+}
+.main .flip span{
+    padding-right: 17px;
+}
+/*end main*/

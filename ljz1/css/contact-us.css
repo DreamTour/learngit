@@ -1,0 +1,27 @@
+/*banner*/
+.banner{
+    height: 300px;
+    background: url("../images/contact-us/banner-bg.jpg") no-repeat center;
+}
+/*end banner*/
+
+/*main*/
+.main{
+    width: 1200px;
+    height: 490px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.main strong{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    padding-top: 40px;
+    display: block;
+}
+.main p{
+    line-height: 22px;
+    font-size: 13px;
+    color: #666666;
+}
+/*end main*/

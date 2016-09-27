@@ -1,0 +1,113 @@
+
+.message{
+    padding: 1rem;
+}
+.message .title{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #585858;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.message .title i{
+    font-size: 1rem;
+    color: #585858;
+}
+.message .common-height input{
+    outline: none;
+    border: none;
+}
+.message .common-height input{
+    color: #999;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+    position: relative;
+    border-radius: 2px;
+}
+.message .common-height i{
+    position: absolute;
+    top: .9rem;
+    left: 1.5rem;
+    z-index: 10;
+    color: #999;
+}
+.message .common-height input{
+    width: 100%;
+    height: 4rem;
+    color: #999;
+    padding-left: 4rem;
+}
+.message .common-height{
+    position: relative;
+}
+.message .common-height input:focus{
+    color: #333;
+    border-color: #9dbff6;
+    z-index: 2;
+}
+textarea{
+    border:none;
+}
+textarea{
+    outline:none;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    width: 100%;
+    height: 8rem;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+    color: #999;
+}
+textarea:focus{
+    color: #333;
+    border-color: #9dbff6;
+    z-index: 2;
+}
+.message .content{
+    position: relative;
+}
+.message .content i{
+    position: absolute;
+    top: .5rem;
+    left: 1.5rem;
+    z-index: 10;
+    color: #999;
+}
+.message .verification-code{
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 2px;
+    position: relative;
+}
+.message .verification-code input{
+    padding-left: 1.3rem;
+}
+.message .verification-code img{
+    height: 3rem;
+    position: absolute;
+    top: .8rem;
+    right: .1rem;
+    z-index: 2;
+}
+.message .btn{
+    width: 100%;
+    height: 3.4rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #fff;
+    background-color: #005ea8;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+.message .user-msg{
+    width: 100%;
+    font-size: 1.6rem;
+    color: #585858;
+    text-align: center;
+    padding-top: 3.5rem;
+}

@@ -1,0 +1,120 @@
+/*content*/
+.container{
+    width: 960px;
+    min-height: 503px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.container .sidebar{
+    width: 210px;
+}
+.container .head{
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 0 10px 0 0;
+    background: #002458;
+    color: #fff;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.container .body{
+    border: 1px solid #eeeeee;
+    border-top: none;
+}
+.container .qq-service{
+    height: 69px;
+    padding: 5px 0 0 10px;
+    border-bottom: 1px dashed #eeeeee;
+}
+.container .qq-service p{
+    line-height: 28px;
+}
+.container .qq-service strong{
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.container .time{
+    height: 72px;
+    padding: 5px 0 0 5px;
+}
+.container .time strong{
+    font-size: 14px;
+    vertical-align: middle;
+}
+.container .time p{
+    line-height: 30px;
+    padding-left: 5px;
+}
+.message-submit{
+    margin-top: 8px;
+}
+.message-submit .body{
+    min-height: 255px;
+    padding-top: 5px;
+}
+.message-submit .body h3{
+    height: 30px;
+    line-height: 30px;
+}
+.message-submit .body .name input,.message-submit .body .e-mail input,.message-submit .body .phone input{
+    width: 129px;
+    height: 21px;
+    border: 1px solid #8f8f8f;
+}
+.message-submit .body span{
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.message-submit .body div{
+    margin-bottom: 4px;
+}
+.message-submit .body .verification-code input{
+    width: 42px;
+    height: 22px;
+    border: 1px solid #8f8f8f;
+    margin-right: 10px;
+}
+.message-submit .body .verification-code em{
+    position: relative;
+    top: -1px;
+    left: -8px;
+}
+.message-submit .body textarea{
+    width: 125px;
+    height: 50px;
+    max-width: 125px;
+}
+.message-submit .body .content span{
+    position: relative;
+    top: -15px;
+}
+.message-submit .btn{
+    display: block;
+    width: 68px;
+    height: 21px;
+    border: 1px solid #8f8f8f;
+    text-align: center;
+    line-height: 21px;
+    background: #f5f5f5;
+    margin: 5px 0 0 60px;
+}
+.message-submit p{
+    color: #888888;
+    padding: 5px 0 0 65px;
+}
+.container .main{
+    width: 740px;
+    height: 349px;
+}
+.container .main h4{
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #dddddd;
+    padding-left: 5px;
+}
+.container .main .map{
+    padding: 5px 0 0 5px;
+}
+/*end content*/

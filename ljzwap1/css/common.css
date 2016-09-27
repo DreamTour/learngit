@@ -1,0 +1,314 @@
+/*字体文件*/
+@font-face{
+    font-family:'icomoon';
+    src:url('icomoon.eot?-2mgmdr&v=118');
+    src:url('icomoon.eot?#iefix-2mgmdr&v=118') format('embedded-opentype'),
+    url('icomoon.woff?-2mgmdr&v=118') format('woff'),
+    url('icomoon.ttf?-2mgmdr&v=118') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+/*end 字体文件*/
+
+/*公共样式*/
+li{
+    list-style: none;
+}
+body{
+    background: #fff;
+}
+.page-wrap{
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-top: 4.2rem;
+    -webkit-overflow-scrolling: touch;
+    overflow:auto;
+    height:100%;
+}
+.am-topbar-fixed-bottom,.am-topbar-fixed-top{
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.am-with-topbar-fixed-bottom,.am-with-topbar-fixed-bottom{
+    padding:0;
+}
+.am-offcanvas-page .am-topbar-fixed-bottom{
+    position:absolute;
+}
+/*end 公共样式*/
+
+/*侧边栏滑动插件*/
+.am-offcanvas{
+    background: none;
+    width: 640px;
+    margin: 0 auto;
+}
+.am-offcanvas-bar{
+    background: #383838;
+    position: absolute;
+    width: 14rem;
+}
+.am-offcanvas-content{
+    padding:0;
+}
+.am-offcanvas-content .head{
+    width: 100%;
+    height: 4.5rem;
+}
+.am-offcanvas-content .body .animation{
+    width: 100%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: left;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 5rem 0 0 5rem;
+    margin-left: -14rem;
+    padding-left: 2.5rem;
+    transition:margin-left 0.5s ease-in-out;
+}
+.am-offcanvas-content .body .animation.fin{
+    margin-left:0.6rem;
+}
+.am-offcanvas-content i{
+    font-size: 2.2rem;
+    vertical-align: middle;
+}
+.am-offcanvas-content .active{
+    background: #005ea8;
+}
+/*end 侧边栏滑动插件*/
+
+/*百度地图*/
+.map{
+    width: 100%;
+    height:100%;
+    max-width: 640px;
+    min-width: 320px;
+    position: fixed;
+    top: 100%;
+    z-index: 99999;
+    transition: top .3s;
+}
+.map>.body{
+    /*height:calc(100% - 12.3rem);*/
+    height: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.map .top{
+    height: 4rem;
+    line-height: 4rem;
+    background: #005ea8;
+    font-size: 3rem;
+}
+.map .top a{
+    display: inline-block;
+    width: 3rem;
+    height: 4rem;
+    text-align: center;
+    color: #fff;
+}
+.map .head{
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #f2f2f2!important;
+}
+.map .head a{
+    display: inline-block;
+    width: 5rem;
+    height: 4rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.map .head span{
+    width: 16rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.map-current{
+    top: 0;
+}
+/*end 百度地图*/
+
+/*QQ客服*/
+.qq-service{
+    width: 100%;
+    height: 14rem;
+    background: #fff;
+    font-size: 1.6rem;
+    position: fixed;
+    bottom: -15rem;
+    z-index: 1000;
+}
+.qq-service-current{
+    bottom: 0;
+}
+.qq-service img{
+    width: 3rem;
+    height: 3rem;
+}
+.qq-service span{
+    display: inline-block;
+    width: 30%;
+}
+.qq-service strong{
+    display: inline-block;
+    width: 35%;
+}
+.qq-service em{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    padding-top: 1rem;
+}
+.qq-service-sub{
+    height: 4.5rem;
+    line-height: 4.5rem;
+    margin: 0 1.5rem 0 2.5rem;
+    border-bottom: 1px solid #d2d2d2;
+    text-align: center;
+    color: #000000;
+}
+.qq-service .btn{
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #585858;
+}
+/*end QQ客服*/
+
+/*header*/
+.header{
+    height: 4.2rem;
+    background: #005ea8;
+    z-index: 1200;
+}
+.header i{
+    color: #fff;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+.header .am-icon-bars:before{
+    width: 3rem;
+}
+/*end header*/
+
+/*top-title*/
+.top-title{
+    height: 3.2rem;
+    border-bottom: 2px solid #e5eff6;
+}
+
+.top-title-span{
+    display: inline-block;
+    width: auto;
+    padding: 0 1rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
+    border-bottom: 2px solid #005ea8;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #005ea8;
+}
+/*end top-title*/
+
+/*backTop*/
+.backTop{
+    width: 100%;
+    color: #fff;
+    font-family: verdana;
+    font-weight: bold;
+    background: #005ea8;
+    position: relative;
+    padding-right: 6%;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    font-size: 1.4rem;
+}
+.backTop a{
+    color: #fff;
+}
+.backTop span{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: .8rem;
+    right: .6rem;
+    border: .4rem transparent solid;
+    border-bottom-color: #fff;
+}
+/*end backTop*/
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 6rem;
+    padding-top: .5rem;
+    text-align: center;
+    color: #666;
+    font-size: 1.2rem;
+    padding-bottom: 10rem;
+    background: #fff;
+}
+.footer a{
+    color: #666;
+}
+.footer .line{
+    padding: 0 0.8rem;
+}
+.footer p{
+    margin: 0;
+}
+/*end footer*/
+
+/*service*/
+.service{
+    height: 4.3rem;
+    padding: 0;
+}
+.service li{
+    width: 25%;
+    height: 4.3rem;
+    float: left;
+}
+.service img{
+    width: 100%;
+    height: 100%;
+}
+.service .box{
+    background: #005ea8;
+    position: relative;
+}
+.service .box-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 1.6rem;
+    margin: auto;
+}
+.service span{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.service i{
+    color: #fff;
+    font-size: 2rem;
+}
+.service .am-icon-phone{
+    font-size: 2.2rem;
+}
+/*end service*/

@@ -1,0 +1,129 @@
+/*公共样式*/
+body{font-size: 12px;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{zoom: 1;}
+.clear{content: ""; display: block; clear: both;}
+/*end 公共样式*/
+
+/*header*/
+.header{
+    height: 150px;
+}
+.header .head{
+    width: 1240px;
+    height: 93px;
+    margin: 0 auto;
+}
+.header .head_left{
+    width: 360px;
+    height: 47px;
+    padding-top: 15px;
+}
+.header .head_left .logo{
+    width: 64px;
+    height: 64px;
+    padding-right: 5px;
+}
+.header .head_left span{
+    color: #e81e3c;
+    font-size: 26px;
+    height: 40px;
+    line-height: 40px;
+}
+.header .head_right{
+    width: 185px;
+    height: 35px;
+    padding-top: 27px;
+}
+.header .head_right span{
+    font-size: 16px;
+}
+.header .head_right p{
+    padding-top: 2px;
+}
+.header .head_center{
+    padding-top: 24px;
+    width: 200px;
+    height: 40px;
+}
+.header .head_center span{
+    font-size: 15px;
+}
+.header .head_center p{
+    font-size: 23px;
+    color: #ed0e0e;
+}
+.header .nav-wrap{
+    width: 100%;
+    background: #292929;
+    height: 57px;
+}
+.header .nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav_fixed{
+    position: fixed;
+    top:0;
+    z-index: 1000;
+}
+.header .nav li{
+    float: left;
+    margin-right: 20px;
+}
+.header .nav li a{
+    display: block;
+    color: #fff;
+    height: 57px;
+    line-height: 57px;
+    width: 114px;
+    text-align: center;
+    font-size: 17px;
+}
+.header .nav .active{
+    background: #ea0e0e;
+}
+.header .nav li:hover{
+    background: #ea0e0e;
+}
+/*end header*/
+
+/*footer*/
+.footer-wrap{
+    height: 72px;
+    text-align: center;
+    background: #141414;
+    border-top: 2px solid #ea0e0e;
+    padding-top: 18px;
+}
+.footer{
+    width:620px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer li{
+    float: left;
+    padding-right: 25px;
+    color: #666;
+    font-size: 15px;
+}
+.footer li a{
+    color: #fff;
+}
+.footer li a:hover{
+    color: #ea0e0e;
+}
+.footer p{
+    color: #4d4d4d;
+    padding-top: 6px;
+    font-size: 14px;
+}
+.footer p a{
+    color: #666666;
+    padding: 0 5px;
+}
+.footer p a:hover{
+    color: #f04363;
+}
+/*end footer*/

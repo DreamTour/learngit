@@ -1,0 +1,41 @@
+/*content*/
+.content{
+    width: 960px;
+    margin: 98px auto 0 auto;
+}
+.content .content_list li a{
+    display: block;
+    width: 960px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+.content .content_list li{
+    border-bottom: 1px dashed #eeeeee;
+}
+.content .content_list li a:hover{
+    background: #002357;
+    color: #fff;
+}
+.content .content_list .clear-border{
+    border-bottom: none;
+}
+.content .content_list em{
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background: url("../images/enterprise-dynamic/essence-bg.gif") no-repeat 0 -38px;
+    position: relative;
+    top: 2px;
+}
+.content .content_flip{
+    width: 930px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0 6px 0;
+}
+.content .content_flip span{
+    padding-right: 10px;
+}
+/*end content*/
+

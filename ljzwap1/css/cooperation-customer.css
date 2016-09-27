@@ -1,0 +1,20 @@
+
+.paragraph{
+    padding: 1.2rem;
+}
+.paragraph p{
+    font-size: 1rem;
+    margin: 0;
+    line-height: 2rem;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: #585858;
+}
+
+.pic-list{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.pic-list div{
+    padding: 1rem 0;
+}

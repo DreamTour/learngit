@@ -1,0 +1,181 @@
+body{
+    background: #fff;
+}
+html,body,.page-wrap{
+    height:100%;
+}
+.page-wrap{
+    padding:0;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    background: black;
+}
+.am-header{
+    background: rgba(255, 255, 255,0.1);
+    position: fixed;
+    top:0;
+    z-index: 10;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.am-header i{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #3c414a;
+    background: rgba(255,255,255,0.6);
+}
+.header .back{
+    left: 1rem;
+}
+.header .home{
+    right: 1rem;
+}
+.header .share{
+    right: 5rem;
+}
+
+.banner{
+    position: relative;
+}
+.banner .banner-img{
+    width: 100%;
+    height: 16.6rem;
+}
+.banner-bottom-bg{
+    width: 100%;
+    height: 5rem;
+    background: linear-gradient(rgba(76,76,76,0) 0,rgba(19,19,19,0.5) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner .text{
+    width: 100%;
+    position: absolute;
+    bottom: 2.6rem;
+    padding-left: 1rem;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.center{
+    padding: 0.8rem;
+}
+.center p{
+
+}
+.center .head{
+    font-size: 1.2rem;
+}
+.center .body{
+    padding-top: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.center img{
+    width: 100%;
+    height: 10rem;
+}
+.center .foot{
+    padding-bottom: 4rem;
+}
+.center .foot p{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    margin: 0;
+}
+
+.shareTo-wrap{
+    width: 100%;
+    height: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    bottom: -100%;
+    z-index: 1000;
+}
+.shareTo{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    background: #fff;
+    height: 22rem;
+    position: fixed;
+    bottom: -22rem;
+    transition: bottom .3s;
+}
+.shareTo-current{
+    bottom: 0;
+}
+.shareTo .head{
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #999;
+}
+.shareTo .body{
+    padding: 0 1rem 1rem 1rem;
+}
+.shareTo .body a{
+    display: block;
+    width: 25%;
+    height: 6.5rem;
+    float: left;
+    text-align: center;
+}
+.shareTo em{
+    display: block;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin: 0 auto;
+}
+.shareTo .xinLang{
+    background: url("../images/news-detail/shareTo-bg1.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.shareTo .QQ{
+    background: url("../images/news-detail/shareTo-bg2.jpg") no-repeat center center;
+    background-size: cover;
+}
+.shareTo .tengXun{
+    background: url("../images/news-detail/shareTo-bg3.jpg") no-repeat center center;
+    background-size: cover;
+}
+.shareTo .kaiXin{
+    background: url("../images/news-detail/shareTo-bg4.jpg") no-repeat center center;
+    background-size: cover;
+}
+.shareTo .renRen{
+    background: url("../images/news-detail/shareTo-bg5.jpg") no-repeat center center;
+    background-size: cover;
+}
+.shareTo .douBan{
+    background: url("../images/news-detail/shareTo-bg6.jpg") no-repeat center center;
+    background-size: cover;
+}
+.shareTo .souHu{
+    background: url("../images/news-detail/shareTo-bg7.jpg") no-repeat center center;
+    background-size: cover;
+}
+.shareTo span{
+    color: #333;
+    font-size: .6rem;
+    text-align: center;
+}
+.shareTo .foot{
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    border-top: 1px solid #dddddd;
+    font-size: 1.4rem;
+}

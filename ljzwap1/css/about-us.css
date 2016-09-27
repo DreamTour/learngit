@@ -1,0 +1,26 @@
+.banner .banner-pic{
+    width: 100%;
+    height: 14rem;
+    padding: 1rem 1.2rem;
+}
+.banner .banner-pic-img{
+    width: 100%;
+    height: 100%;
+}
+
+.paragraph{
+    padding: .5rem 1.3rem 4rem 1.3rem;
+    font-size: 1.6rem;
+}
+.paragraph p{
+    font-family: 微软雅黑;
+    font-size: 1.4rem;
+    color: #585858;
+    text-indent: 2em;
+}
+.paragraph .paragraph-p1{
+    text-indent: 1em;
+}
+.paragraph .paragraph-p2{
+    text-indent: 2em;
+}

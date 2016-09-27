@@ -1,0 +1,38 @@
+/*banner*/
+.banner{
+    height: 300px;
+    background: url("../images/about-us/banner-bg.jpg") no-repeat center;
+    position: relative;
+}
+.banner object{
+    position: absolute;
+    top: 0;
+    left: 471px;
+    z-index: 1;
+}
+/*end banner*/
+
+/*main*/
+.main{
+    width: 1090px;
+    height: 1131px;
+    margin: 0 auto;
+}
+.main .pic{
+    padding: 47px 0 20px 0;
+}
+.main p{
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+.main .padding{
+    padding-top: 30px;
+}
+.main span{
+    font-size: 14px;
+    display: block;
+    line-height: 30px;
+}
+/*end main*/
